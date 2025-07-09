@@ -1,0 +1,11 @@
+bundle:
+  name: chat-app
+
+resources:
+  apps:
+    chat-app:
+      name: "chat-app"
+      description: "Petronas Chat Assistant to help with automation of tasks and provide information about company policies, documents, or procedures."
+      permissions:
+        - level: "CAN_USE"
+          principal: "account users"
